@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F601C920-CD6E-4391-A472-70DCE227AEC7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27F7EBF7-083D-4598-9266-354CC319510C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperMarvelList/Source/Commons/Extensions/UI/AlertPresentable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "showErrorAlert(with:message:imageName:actionTitle:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E310A8B4-C883-490C-81DF-F50C3C3C5AFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperMarvelList/Source/Commons/Extensions/UI/AlertPresentable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "showErrorAlert(with:message:imageName:actionTitle:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6BF7493-037B-4CE8-8FB1-CF29AE0DC34D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViperMarvelList/Source/Data/Repository/CharacterRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getCharacteres(limit:offset:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6BF7493-037B-4CE8-8FB1-CF29AE0DC34D - 7843821651c34949"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViperMarvelList.CharacterRepositoryImp.getCharacteres(limit: Swift.Int, offset: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;ViperMarvelList.Character&gt;, ViperMarvelList.CharacterError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ViperMarvelList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alejandro/Desktop/AAA/ProyectoPersonal/ViperMarvelList/ViperMarvelList/Source/Data/Repository/CharacterRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  uuid = "F6BF7493-037B-4CE8-8FB1-CF29AE0DC34D - 446b064e43a35c70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;ViperMarvelList.CharacteresResponse, ViperMarvelList.APIError&gt;) -&gt; () in ViperMarvelList.CharacterRepositoryImp.getCharacteres(limit: Swift.Int, offset: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;ViperMarvelList.Character&gt;, ViperMarvelList.CharacterError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ViperMarvelList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alejandro/Desktop/AAA/ProyectoPersonal/ViperMarvelList/ViperMarvelList/Source/Data/Repository/CharacterRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "201">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupAlert" customModule="ViperMarvel" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="k3O-oV-XJc" id="lkY-aC-rAX"/>
+                <outlet property="backgroundView" destination="bjR-n6-b3v" id="DHJ-GH-Nfg"/>
+                <outlet property="btnAction" destination="SAM-hg-yO5" id="c9w-VL-kC9"/>
+                <outlet property="imageAlert" destination="daN-cA-oRe" id="6Fc-XW-60r"/>
+                <outlet property="labelDescriptionAlert" destination="L3j-Pu-AUL" id="MzV-Qt-Ih0"/>
+                <outlet property="labelTitleAlert" destination="Xok-n6-BjT" id="Tyd-DQ-qfi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjR-n6-b3v">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <accessibility key="accessibilityConfiguration" identifier="popupBackgorund"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3O-oV-XJc">
+                    <rect key="frame" x="20" y="205.5" width="335" height="256"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xok-n6-BjT">
+                            <rect key="frame" x="20" y="95" width="295" height="20.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="popupAlertTitle"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3j-Pu-AUL">
+                            <rect key="frame" x="20" y="135.5" width="295" height="20.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="popupAlertSubTitle"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAM-hg-yO5">
+                            <rect key="frame" x="22" y="176" width="291" height="60"/>
+                            <accessibility key="accessibilityConfiguration" identifier="popupAlertButton"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="dLT-Ac-KmQ"/>
+                            </constraints>
+                            <state key="normal" title=" "/>
+                            <connections>
+                                <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="G2n-Pi-0dJ"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-error-red" translatesAutoresizingMaskIntoConstraints="NO" id="daN-cA-oRe">
+                            <rect key="frame" x="140" y="30" width="55" height="45"/>
+                            <accessibility key="accessibilityConfiguration" identifier="popupAlertImage">
+                                <bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <accessibility key="accessibilityConfiguration" identifier="popupAlert"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="SAM-hg-yO5" secondAttribute="bottom" constant="20" id="1mu-YU-gNS"/>
+                        <constraint firstItem="daN-cA-oRe" firstAttribute="centerX" secondItem="k3O-oV-XJc" secondAttribute="centerX" id="C41-h3-mGQ"/>
+                        <constraint firstItem="Xok-n6-BjT" firstAttribute="leading" secondItem="k3O-oV-XJc" secondAttribute="leading" constant="20" id="DVR-me-WaJ"/>
+                        <constraint firstAttribute="trailing" secondItem="Xok-n6-BjT" secondAttribute="trailing" constant="20" id="Ht0-xn-lfs"/>
+                        <constraint firstAttribute="trailing" secondItem="SAM-hg-yO5" secondAttribute="trailing" constant="22" id="MLk-mT-6mE"/>
+                        <constraint firstItem="daN-cA-oRe" firstAttribute="top" secondItem="k3O-oV-XJc" secondAttribute="top" constant="30" id="QrH-Gh-l4A"/>
+                        <constraint firstItem="SAM-hg-yO5" firstAttribute="leading" secondItem="k3O-oV-XJc" secondAttribute="leading" constant="22" id="T4N-5l-lVa"/>
+                        <constraint firstItem="Xok-n6-BjT" firstAttribute="top" secondItem="daN-cA-oRe" secondAttribute="bottom" constant="20" id="Xre-b2-N0o"/>
+                        <constraint firstItem="L3j-Pu-AUL" firstAttribute="leading" secondItem="k3O-oV-XJc" secondAttribute="leading" constant="20" id="fUA-hJ-IYx"/>
+                        <constraint firstItem="L3j-Pu-AUL" firstAttribute="top" secondItem="Xok-n6-BjT" secondAttribute="bottom" constant="20" id="hfa-Dr-yXY"/>
+                        <constraint firstItem="SAM-hg-yO5" firstAttribute="top" secondItem="L3j-Pu-AUL" secondAttribute="bottom" constant="20" id="jaM-O1-4Ig"/>
+                        <constraint firstAttribute="trailing" secondItem="L3j-Pu-AUL" secondAttribute="trailing" constant="20" id="jzP-hx-jwv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="containerPopup"/>
+            <constraints>
+                <constraint firstItem="bjR-n6-b3v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2m5-l6-kcA"/>
+                <constraint firstItem="k3O-oV-XJc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="7XM-pe-8iJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="k3O-oV-XJc" secondAttribute="trailing" constant="20" id="VZt-3a-z2Y"/>
+                <constraint firstItem="k3O-oV-XJc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ZJY-lq-zdl"/>
+                <constraint firstItem="k3O-oV-XJc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="aZB-Ct-goG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bjR-n6-b3v" secondAttribute="trailing" id="eNL-VM-elt"/>
+                <constraint firstAttribute="bottom" secondItem="bjR-n6-b3v" secondAttribute="bottom" id="fBm-RC-QrE"/>
+                <constraint firstItem="bjR-n6-b3v" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="iw3-86-E3E"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="k3O-oV-XJc" secondAttribute="bottom" constant="40" id="jww-EW-QfV"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="153.37331334332833"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-error-red" width="55" height="45"/>
+    </resources>
+</document>

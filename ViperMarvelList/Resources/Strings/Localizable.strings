@@ -1,0 +1,13 @@
+"appGeneralAccept"           = "Ok";
+"appGeneralPullToRefresh"           = "Pull to refresh";
+"appCharacterEmptyDescription" = "Super hero no description.";
+
+"appNoConnection"            = "No connection";
+"appBackOnline"              = "Back online";
+
+"appHomeTitle"               = "Marvel";
+
+"errAlertTitle"              = "Error";
+"errConnection"              = "Connection error";
+"errInternalServerError"     = "Internal error";
+

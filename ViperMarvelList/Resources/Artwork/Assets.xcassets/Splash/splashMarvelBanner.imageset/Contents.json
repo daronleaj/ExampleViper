@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "splashMarvelBanner.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
